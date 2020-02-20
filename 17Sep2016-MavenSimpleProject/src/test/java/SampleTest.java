@@ -16,7 +16,7 @@ public class SampleTest {
 		driver.findElement(By.id("passw")).sendKeys("demo1234");
 		driver.findElement(By.id("passw")).submit();
 		
-		Assert.assertEquals(driver.getCurrentUrl(), "http://demo.testfire.net/bank/main.jsp","User login failed");
+		Assert.assertEquals(driver.getCurrentUrl(), "http://demo.testfire.net/bank/main.jsp","User  login failed");
 		driver.quit();
 	}
 }
